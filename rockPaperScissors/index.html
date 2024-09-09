@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="options">
+            <button onclick="rock()" id="chooseBtn" class="imgButtons"><img class="images" src="img/rock.png" alt="rock"></button>
+            <button onclick="paper()" id="chooseBtn" class="imgButtons"><img class="images" src="img/paper.png" alt="paper"></button>
+            <button onclick="scissors()" id="chooseBtn" class="imgButtons"><img class="images" src="img/scissors.png" alt="scissors"></button>
+        </div>
+        <div class="results">
+        <div id="resultHeader">You won / You loose</div>
+            <div class="wrapper">
+                <div id="yourOption"><img class="images" src="img/questionMark.png" alt="?"></div>
+                <div id="pcOption"><img class="images" src="img/questionMark.png" alt="?"></div>
+            </div>
+            <div class="infoWrapper">
+                <span>YOU</span>
+                <span>COMPUTER</span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
