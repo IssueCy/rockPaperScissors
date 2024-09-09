@@ -47,28 +47,6 @@ body {
     height: 100px;
 }
 
-#retry {
-    margin-top: 32px;
-    width: 75px;
-    height: 32px;
-    border: none;
-    background-color: rgb(60, 119, 207);
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-    border-radius: 4px;
-}
-
-#retry:hover {
-    background-color: rgb(42, 87, 156);
-}
-
-#retry:active {
-    background-color: rgb(27, 62, 114);
-}
-
-
-
 .results {
     margin-top: 100px;
     width: 50%;
